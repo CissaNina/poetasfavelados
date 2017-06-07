@@ -8,6 +8,7 @@ nav{
 	justify-content: center;
 	align-items: center;
 	position: fixed;
+
 }
 
 ul{ 
@@ -15,6 +16,7 @@ ul{
 	justify-content: center;
 	align-items: center;
 	margin-top: 46px;
+	margin-left: 420px;
 	
 
 }
@@ -28,32 +30,77 @@ li{
 	border: 1px solid #00416d ; 
 	width: 116px;
 	height: 100%;
-	margin: 3%;
+	margin: 5px;
 	background-color: #fff;
-	text-decoration: none;	
+	text-decoration: none;
+	font-family: 'Source Sans Pro', sans-serif;	
 }
 a{
 	text-decoration: none;
 }
+    
 
-img{width: 100%;
-height:100%;}
+img{
+	width: 100%;
+	height:100%;}
 
-.Prancheta2{ display: flex;
-align-items: center;
-justify-content: center;
-height:33,69%;
-width: 31%;
-position: absolute;
-top: 24px; 
-left: 32% }
+.Prancheta2{ 
+            display: flex;
+            align-items: center;
+			justify-content: center;
+			height:33,69%;
+			width: 31%;
+			position: absolute;
+			top: 24px; 
+			left: 32% }
 
 .studio{
-font-family: HelveticaNeue;
-font-size: 1.25em;
-color: #ffffff;
-font-style: normal;
-text-align: left;
-line-height: 1.07em;
-letter-spacing: 0em;}
+		font-family: HelveticaNeue;
+		font-size: 1.25em;
+		color: #ffffff;
+		font-style: normal;
+		text-align: left;
+		line-height: 1.07em;
+		letter-spacing: 0em;
+		margin-top: -70px;
+		margin-left: 20px;}
 
+.prancheta3{
+			height:15.86%;
+			width:20%;
+			top: -50px;
+}
+h2{
+	font-family: SourceSansPro-Bold;
+	font-size: 1.88em;
+	color: #1f4ecc;
+	font-style: normal;
+	text-align: left;
+	line-height: 1.61em;
+	letter-spacing: 0em;}
+
+.sobre {
+		font-family:  'Source Sans Pro', sans-serif;
+		font-size: 1.25em;
+		color: #656565;
+		font-style: normal;
+		text-align: left;
+		line-height: 1.07em;
+		letter-spacing: 0em;
+    	display: flex;
+    	flex-direction: column;
+		width: 50%;
+  		margin-top: 85px;}
+
+ .ações{
+ 		flex-direction: column;
+		width: 50%;
+  		margin-top: 85px;
+  		font-family: 'Source Sans Pro', sans-serif;
+		font-size: 0.88em;
+		color: #1f4ecc;
+		font-style: normal;
+		text-align: left;
+		line-height: 0.75em;
+		letter-spacing: 0em;
+ }
