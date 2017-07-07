@@ -80,6 +80,53 @@ main{
 	flex-direction: row;
 }
 
+
+			@media (max-width: 320px) {
+				body {
+					margin: 0%;
+					padding: 0%;
+					}
+
+				header{
+					background:none;
+					flex-direction: column;
+					background-color: #ffca22;
+				}
+				header p{
+					display: none;
+				}
+				nav{
+					left: -9%;
+					top: 15%;
+
+				}
+				ul {
+					margin-left: 0;
+				}
+				li{
+					width: 80px;
+					height: 25px;
+				}
+
+
+				main{
+					flex-direction: column;
+				}
+
+				#sobre{
+					margin-top: 10%;
+				}
+
+				#sobre img{
+					display: none;
+				}
+
+
+
+			}
+
+
+
 #sobre img{
 	width: 40%;
 	height: 40%;
@@ -193,6 +240,16 @@ main{
 	width: 70%;
 }
 
+				@media (max-width: 320px) {
+						.ações{
+							flex-direction: column;
+						}
+
+
+				}
+
+
+
 .rodape-img{
 	position: absolute;
 	left: 85%;
@@ -250,7 +307,13 @@ footer .alt{
 }
 
 
+				@media (max-width: 320px) {
+						.ações{
+							flex-direction: column;
+						}
 
+
+				}
 
 
 
@@ -474,7 +537,7 @@ footer{ height: 239px;
 		margin-top: 15px; }
 
 
-#caixa{ width: 370px;
+#{ width: 370px;
 opacity:0.60;
 position: relative;
 left: 68%;
