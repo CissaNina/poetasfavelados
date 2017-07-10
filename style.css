@@ -164,7 +164,7 @@ main{
 	align-items: center;
 	flex-direction: row;
 	margin-left: 6%;
-	background:url(Assets/1.jpg);
+	background:url(Assets/1.jpg) ;
 	background-repeat: no-repeat;
 	background-size: 170%;
 	height:1000px;
@@ -243,7 +243,65 @@ main{
 				@media (max-width: 320px) {
 						.ações{
 							flex-direction: column;
+							height: 600px;
+							background-size: cover;
 						}
+							.ações-favela{ 
+								display: flex;
+								flex-direction: column;
+								width: 85%;
+								height: 17%;
+								background-color: red;
+								margin-top: -28%;
+										 }
+							.ações-favela h2{ 	
+								margin-left: 8%;
+								width: 80%;	
+								margin-top: 2%;													 }
+							.ações-favela p{
+								width: 90%;
+								font-size: 0.88em;
+								line-height: 1em;
+								margin-top: -8%;
+								}
+
+							.ações-somosmais{ 
+								display: flex;
+								flex-direction: column;
+								width: 85%;
+								height: 13%;
+								background-color: pink;
+								margin-top: 1%;	 }
+							.ações-somosmais h2{ 
+
+								margin-left: 8%;
+								width: 80%;
+								margin-top: 6%;
+
+																							 }
+							.ações-somosmais p{
+								width: 90%;
+								font-size: 0.88em;
+								line-height: 1em;
+								margin-top: -8%;}
+
+							.ações-apresentações{ 
+								display: flex;
+								flex-direction: column;
+								width: 85%;
+								height: 10%;
+								background-color: tomato;
+								margin-top: 1%;	 }
+							.ações-apresentações h2{ 	
+														
+								margin-left: 8%;
+								width: 80%;
+								margin-top: 1%;										 }
+							.ações-apresentações p{
+								width: 90%;
+								font-size: 0.88em;
+								line-height: 1em;
+								margin-top: -6%;}
 
 
 				}
