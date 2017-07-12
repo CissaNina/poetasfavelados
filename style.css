@@ -104,7 +104,7 @@ main{
 					margin-left: 0;
 				}
 				li{
-					width: 80px;
+					width: 60px;
 					height: 25px;
 				}
 
@@ -251,7 +251,7 @@ main{
 								flex-direction: column;
 								width: 85%;
 								height: 17%;
-								background-color: red;
+								background-color: #fff;
 								margin-top: -28%;
 										 }
 							.ações-favela h2{ 	
@@ -270,7 +270,7 @@ main{
 								flex-direction: column;
 								width: 85%;
 								height: 13%;
-								background-color: pink;
+								background-color: #fff;
 								margin-top: 1%;	 }
 							.ações-somosmais h2{ 
 
@@ -290,7 +290,7 @@ main{
 								flex-direction: column;
 								width: 85%;
 								height: 10%;
-								background-color: tomato;
+								background-color: #fff;
 								margin-top: 1%;	 }
 							.ações-apresentações h2{ 	
 														
@@ -368,6 +368,10 @@ footer .alt{
 				@media (max-width: 320px) {
 						.ações{
 							flex-direction: column;
+							height: 600px;
+							background-size: cover;
+							
+
 						}
 
 
