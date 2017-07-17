@@ -101,7 +101,7 @@ main{
 
 				}
 				ul {
-					margin-left: 5%;
+					margin-left: 2%;
 					margin-top: 5px;
 				}
 				li{
@@ -123,16 +123,19 @@ main{
 				}
 
 
+				}
+
+
 
 			}
 
 
 
 #sobre img{
-	width: 40%;
-	height: 40%;
+	width: 10%;
+	height: 10%;
 	position:relative;
-	margin-top: -50%;
+	margin-top: -20%;
 }
 
 #sobre{
@@ -146,14 +149,16 @@ main{
 }
 
 #sobre p{
-	width: 75%;
-	position:relative;
+	font-family: 'SourceSansPro-Regular'
+	width: 95%;
 	left: 19%;
 	color: #656565;
-	font-size: 1.10em;
+	font-size: 1.25em;
 }
 
 #sobre h2 {
+	font-family: 'SourceSansPro-Bold';
+	font-size: 1.88em;
 	position: relative;
 	left: -12%;
 	color: #1f4ecc;
@@ -169,6 +174,8 @@ main{
 	background-repeat: no-repeat;
 	height:100vh;
 	background-size: cover;
+	//margin: 5%;
+	margin-bottom: 11%;
 }
 
 .ações-favela{
@@ -177,7 +184,7 @@ main{
 	align-items: center;
 	flex-direction: column;
 	width: 50%;
-	height: 40%;
+	height: 50%;
 	background-color: #fff;	
 	margin: 10px;
 	margin-top: 16%;
@@ -187,9 +194,14 @@ main{
 .ações-favela h2{
 	margin-left: -25%;
 	width: 40%;
+	font-family: 'SourceSansPro-Semibold'
+	font-size: 1.56em;
+
 }
 .ações-favela p{
-	width: 60%;
+	width: 80%;
+	font-family: 'SourceSansPro-Regular'
+	font-size: 0.88em;
 }
 
 .ações-somosmais{
@@ -198,7 +210,7 @@ main{
 	align-items: center;
 	flex-direction: column;
 	width: 50%;
-	height: 40%;
+	height: 50%;
 	background-color: #fff;	
 	margin: 10px;
 	margin-top: 16%;
@@ -210,11 +222,16 @@ main{
 	font-size: 1.40em;
 	margin-left: 2%;
 	margin-top:  -20%;
+	font-family: 'SourceSansPro-Semibold'
+	font-size: 1.56em;
 	
 }
 
 .ações-somosmais p{
-	width: 65%;
+	width: 80%;
+	font-family: 'SourceSansPro-Regular'
+	font-size: 0.88em;
+
 }
 
 .ações-apresentações{
@@ -223,7 +240,7 @@ main{
 	align-items: center;
 	flex-direction: column;
 	width: 50%;
-	height: 40%;
+	height: 50%;
 	background-color: #fff;	
 	margin: 7px;
 	margin-top: 16%;
@@ -233,12 +250,17 @@ main{
 .ações-apresentações h2{
 	font-size: 1.40em;
 	margin-left: -5%;
-	margin-top:  -83%;
-	
+	margin-top:  -60%;
+	font-family: 'SourceSansPro-Semibold'
+	font-size: 1.56em;
+
 }
 
 .ações-apresentações p{
-	width: 70%;
+	width: 80%;
+	font-family: 'SourceSansPro-Regular'
+	font-size: 0.88em;
+
 }
 
 				@media (max-width: 320px) {
@@ -256,7 +278,7 @@ main{
 								height: 20%;
 								background-color: #fff;
 								margin-top: 19%;
-								margin-left: -9.8%;
+								margin-left: 2.9%;
 										 }
 							.ações-favela h2{ 	
 								margin-left: 8%;
@@ -277,7 +299,7 @@ main{
 								height: 20%;
 								background-color: #fff;
 								margin-top: 1%;
-								margin-left: -9.8%;	 }
+								margin-left: 2.9%;	 }
 							.ações-somosmais h2{ 
 
 								margin-left: 8%;
@@ -298,7 +320,7 @@ main{
 								height: 13%;
 								background-color: #fff;
 								margin-top: 1%;	
-								margin-left: -9.8%; }
+								margin-left: 2.9%; }
 							.ações-apresentações h2{ 	
 														
 								margin-left: 8%;
@@ -333,16 +355,19 @@ footer{
 	height: 100vh;
 	margin-top: -11.12%;
 	flex-direction: column;
+
 }
 
 footer div {	
 	display: flex;
-	align-self: flex-end;
 	flex-direction: column;
 	border-radius: 20px;
 	background-color: rgba(0, 0, 0, 0.45);
 	width: 30%;
+	height: 25%;
 	color: #fff;
+	align-items: center;
+	justify-content: center;
 
 
 }
@@ -350,7 +375,11 @@ footer div {
 footer div p{
 	width: 40%;
 	font-size: 1.25em;
+	font-family:'SourceSansPro-Regular'
 }
+footer div h2{
+	font-family: 'SourceSansPro-Bold'
+	font-size: 1.88em;}
 
 footer .alt{
 	display: flex;
