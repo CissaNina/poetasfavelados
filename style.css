@@ -127,20 +127,11 @@ main{
 
 
 
-			}
-
-
-
-#sobre img{
-	width: 10%;
-	height: 10%;
-	position:relative;
-	margin-top: -20%;
-}
 
 #sobre{
 	padding: 10%;
-	margin-left: -10%;
+	margin-left: -9%;
+	margin-top: -15%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -154,14 +145,21 @@ main{
 	left: 19%;
 	color: #656565;
 	font-size: 1.25em;
+	margin: 4%;
 }
 
 #sobre h2 {
 	font-family: 'SourceSansPro-Bold';
 	font-size: 1.88em;
 	position: relative;
-	left: -12%;
+	left: -37%;
 	color: #1f4ecc;
+	margin-top: -3%;
+}
+.logo{
+	width: 30%;
+	margin-top: 18%;
+	margin-left: -60%;
 }
 
 .ações {
@@ -364,7 +362,7 @@ footer div {
 	border-radius: 20px;
 	background-color: rgba(0, 0, 0, 0.45);
 	width: 30%;
-	height: 25%;
+	height: 32%;
 	color: #fff;
 	align-items: center;
 	justify-content: center;
@@ -383,8 +381,7 @@ footer div h2{
 
 footer .alt{
 	display: flex;
-	justify-content: flex-end;
-	align-items: flex-end;
+	
 	color: #fff;
 	font-size: 1.14em;
 
