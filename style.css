@@ -115,11 +115,14 @@ main{
 				}
 
 				#sobre{
-					margin-top: 10%;
+					margin-top: 10;
 				}
 
 				#sobre img{
 					display: none;
+				}
+				#sobre h2{
+					margin-top: 18%;
 				}
 
 
@@ -131,7 +134,7 @@ main{
 #sobre{
 	padding: 10%;
 	margin-left: -9%;
-	margin-top: -15%;
+	margin-top: -16%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -151,7 +154,7 @@ main{
 #sobre h2 {
 	font-family: 'SourceSansPro-Bold';
 	font-size: 1.88em;
-	position: relative;
+	
 	left: -37%;
 	color: #1f4ecc;
 	margin-top: -3%;
@@ -173,7 +176,7 @@ main{
 	height:100vh;
 	background-size: cover;
 	//margin: 5%;
-	margin-bottom: 11%;
+	margin-bottom: 12%;
 }
 
 .ações-favela{
@@ -345,35 +348,39 @@ main{
 
 footer{
 	display: flex;
-	justify-content: center;
+	justify-content: flex-end;
 	align-items: center;
-	background: url(Assets/2.jpg)center center; 
+	background: url(Assets/2.jpg)center; 
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 100vh;
 	margin-top: -11.12%;
-	flex-direction: column;
+	
 
 }
 
 footer div {	
 	display: flex;
+	justify-content: center;
+	align-items: center;
 	flex-direction: column;
 	border-radius: 20px;
 	background-color: rgba(0, 0, 0, 0.45);
-	width: 30%;
-	height: 32%;
+	width: 22%;
+	
 	color: #fff;
-	align-items: center;
-	justify-content: center;
+	right:-5%;
+	
+	
 
 
 }
 
 footer div p{
-	width: 40%;
+	width: 70%;
 	font-size: 1.25em;
 	font-family:'SourceSansPro-Regular'
+	margin-right:10%;
 }
 footer div h2{
 	font-family: 'SourceSansPro-Bold'
@@ -381,7 +388,10 @@ footer div h2{
 
 footer .alt{
 	display: flex;
-	
+	justify-content: flex-end;
+	align-items: flex-end;
+	margin-top: 45%;
+ 	margin-right: 2%;
 	color: #fff;
 	font-size: 1.14em;
 
@@ -391,15 +401,14 @@ footer .alt{
 				@media (max-width: 320px) {
 						footer{height: 90vh;}
 						footer div{
-							width: 80%;
-							padding: 0.75px;
-							align-self: center;
-							padding: 5%;
+							width: 82%;
+							padding: 5px;
+							margin-left:10%;
 
 						}
 						footer div p{
 							font-size: 0.88em;
-							width: 90%;
+							width: 100%;
 						}
 
 						footer div h2 {
